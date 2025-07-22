@@ -2,7 +2,7 @@ import Rodape from '../../components/Rodape'
 import BarraLateral from '../../containers/BarraLateral'
 import Formulario from '../../containers/Formulario'
 
-const Cadatro = () => {
+const Cadastro = () => {
   return (
     <>
       <BarraLateral mostrarFiltros={false} />
@@ -12,4 +12,4 @@ const Cadatro = () => {
   )
 }
 
-export default Cadatro
+export default Cadastro

@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import store from './store'
 import Home from './pages/Home'
-import Cadatro from './pages/Cadastro'
+import Cadastro from './pages/Cadastro'
 
 const rotas = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ const rotas = createBrowserRouter([
   },
   {
     path: '/novo',
-    element: <Cadatro />
+    element: <Cadastro />
   }
 ])
 
