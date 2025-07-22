@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-// type PropsSemLegendaEContador = Omit<Props, 'contador' | 'legenda' | 'criterio'>
-
 type Props = {
   ativo: boolean
 }
